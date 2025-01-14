@@ -13,6 +13,7 @@ export default function Bodyhome() {
   Edumate is an innovative platform designed to help students manage 
   their study process efficiently and effectively. With advanced 
   features designed specifically, Edumate is a complete solution to 
+<<<<<<< HEAD
   improve learning productivity and performance.`;
 
   return (

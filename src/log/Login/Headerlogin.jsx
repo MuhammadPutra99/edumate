@@ -95,7 +95,6 @@ export default function Headerlogin() {
       <div className="w-full h-[530px] bg-gradient-to-b from-[#FF635A] to-[#952A25] rounded-xl shadow-lg">
         <p className="montserrat text-white text-5xl font-semibold text-center pt-8">Hi Mate!</p>
         <p className="montserrat text-white text-xl font-light text-center">U're Comeback Again.</p>
-
         {error && (
           <div className="mx-24 mt-4 p-3 bg-red-500 text-white rounded-lg text-center">
             {error}
