@@ -1,0 +1,19 @@
+.montserrat {
+  font-family: "Montserrat";
+}
+
+.pixelify {
+  font-family: "Pixelify Sans";
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
