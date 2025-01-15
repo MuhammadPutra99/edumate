@@ -17,6 +17,7 @@ export default function Bodyhome() {
   improve learning productivity and performance.`;
 
   return (
+    
     <div className="flex flex-col">
       {/* Component 1 */}
       <div className="flex flex-row justify-between items-center px-28 pt-12">

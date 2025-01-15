@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Icon from '../assets/CHART.png'
-import '../AddItem.css';
+import Icon from '../../assets/CHART.png'
+import '../../AddItem.css';
 
-export default function Navbar() {
+export default function NavbarProgress() {
 
   const [active, setActive] = useState('Edumate');
 

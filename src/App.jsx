@@ -5,8 +5,10 @@ import Landingpages from "./pages/Landingpages";
 import Loginpages from "./pages/Loginpages";
 import Registpages from "./pages/Registpages";
 import Profilepages from "./pages/Profilepages";
-import { AuthContext } from "./context/AuthContext";
 import AIpages from "./pages/AIpages";
+import { AuthContext } from "./context/AuthContext";
+import Categorypages from "./pages/Categorypages";
+import Todopages from "./pages/Todopages";
 
 function App() {
   const { currentUser } = useContext(AuthContext);
@@ -46,10 +48,29 @@ function App() {
           path="/mate-ai"
           element={
             <RequireAuth>
-              <AIpages />
+              <AIpages/>
             </RequireAuth>
           }
         />
+
+        <Route
+          path="/to-do"
+          element={
+            <RequireAuth>
+              <Categorypages />
+            </RequireAuth>
+          }
+        />
+
+        <Route
+          path="/progress"
+          element={
+            <RequireAuth>
+              <Todopages />
+            </RequireAuth>
+          }
+        />
+
       </Routes>
     </BrowserRouter>
   );

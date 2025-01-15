@@ -6,7 +6,7 @@ import StatsThree from '../assets/stats3.png';
 
 export default function Headerhome() {
   return(
-    <div className="pt-20">
+    <div className="pt-14">
       <div className="flex flex-col justify-center items-center">
         <p className="montserrat md:text-7xl font-semibold text-white text-center md:px-60">
           Transforming Education
